@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "main-font";
+  src: url(/static/fonts/ClashDisplay-Regular.woff2);
+}
+@font-face {
+  font-family: "satoshi";
+  src: url(/static/fonts/Satoshi-Regular.woff2);
+}
+.body {
+  font-family: "main-font";
+}
+img:hover {
+  cursor: pointer;
+  opacity: 80%;
+  transition: 0.5s;
+  transition-duration: 500ms, 2s;
+}
+a:hover {
+  opacity: 40%;
+  transition: 0.5s;
+}

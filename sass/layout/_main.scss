@@ -1,0 +1,108 @@
+.card3-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: center;
+  color: $desc-color;
+  margin-top: 80px;
+}
+.card2__cards {
+  width: 305px;
+  height: 244px;
+  margin-top: 36px;
+  left: 80px;
+  padding: 48px;
+  gap: 10px;
+  opacity: 0px;
+  margin-top: 36px;
+  background-color: #f9f9f9;
+}
+.car-img {
+  width: 24px;
+  height: 24px;
+}
+.card3-des {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 15px;
+  font-family: "main-font";
+}
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.card3-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: $desc-color;
+  margin-top: 12px;
+}
+.card4__card {
+  width: 305px;
+  height: 462px;
+}
+.des {
+  font-size: 20px;
+}
+.card4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+.card5-card {
+  background-color: $desc-color;
+  color: white;
+  padding: 24px;
+}
+.card5__card2 {
+  width: 630px;
+  height: 445px;
+  background-image: url(/static/images/png/footer-img.webp);
+}
+.card5 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.card6 {
+  height: 444px;
+  width: 1440px;
+  background-image: url(https://fastly.picsum.photos/id/417/1440/444.jpg?blur=5&hmac=gjj5DKJfg815Bcv80H4zrW1w95CCMTrO4pkEM6EVSKA);
+  margin-top: 60px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.card6-title {
+  font-family: "satoshi";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  text-align: center;
+}
+.card6-desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-left: 40px;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+.checkbox-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.left {
+  margin-left: 60px;
+}

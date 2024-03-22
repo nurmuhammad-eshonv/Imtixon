@@ -1,36 +1,71 @@
-.nav__card2 {
-  ul {
-    display: flex;
-    gap: 40px;
+.nav-icon {
+  width: 16px;
+  height: 16px;
+}
+nav {
+  width: 1440px;
+  height: 132px;
+  display: flex;
+  justify-content: center;
+}
+.nav__card1 {
+  display: flex;
+  gap: 600px;
+  width: 1386px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px rgb(212, 196, 196);
+  opacity: 10;
+}
+.icons-wrapper {
+  display: flex;
+  gap: 17px;
+}
+.title {
+  font-family: "main-font";
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  color: $black-color;
+  :hover {
+    opacity: 70%;
+    transition: 0.5s;
   }
 }
-.nav_wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav__card3 {
-  display: flex;
-  gap: 60px;
-  align-items: center;
-}
-.nav__card3-div {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.card2__a {
+.menu {
+  gap: 44px;
+  font-family: Satoshi;
   font-size: 16px;
-  font-weight: 500;
-  line-height: 16px;
-  color: black;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  margin-top: 20px;
 }
-.nomer {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 20px;
-  color: #3d4a39;
+.menu {
+  li {
+    font-size: 16px;
+    text-decoration: none;
+  }
 }
-.nav {
-  margin-top: 30px;
+.menu {
+  li {
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      color: #726e8d;
+    }
+  }
+}
+@media only screen and (max-width: 390px) {
+  body {
+    background-color: red;
+  }
+  container {
+    width: 100%;
+  }
 }

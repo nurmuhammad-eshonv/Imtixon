@@ -1,0 +1,17 @@
+.main-input {
+  width: 354px;
+  height: 56px;
+  padding: 17px 205px 17px 32px;
+  gap: 10px;
+  opacity: 0px;
+  border: none;
+  color: #cfced6;
+  margin-top: 40px;
+}
+.inputs {
+  text-align: center;
+  margin-left: 60px;
+}
+.main-input::placeholder {
+  color: #cfced6
+}

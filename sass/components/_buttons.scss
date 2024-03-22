@@ -1,0 +1,48 @@
+.search-icon {
+  width: 16px;
+  height: 16px;
+  color: black;
+}
+.btn {
+  width: 170px;
+  height: 56px;
+  margin-top: 140px;
+  margin-left: 56px;
+  padding: 16px 32px 16px 32px;
+  background-color: #f9f9f9;
+}
+button:hover {
+  opacity: 70%;
+  transition: 0.5s;
+  transition-property: 0.5;
+}
+.card4-btn {
+  margin-top: 48px;
+  margin-left: 560px;
+  padding: 16px 32px 16px 32px;
+  background-color: #f9f9f9;
+  border: none;
+}
+.card5-btn {
+  background-color: #494465;
+  color: white;
+  width: 170px;
+  height: 56px;
+  padding: 16px 22px 19px 22px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 130px;
+  margin-left: 55px;
+}
+.card6-btn {
+  width: 118px;
+  height: 56px;
+  padding: 16px 28px 16px 32px;
+  gap: 10px;
+  opacity: 0px;
+  background-color: $desc-color;
+  border: none;
+  margin-left: -4px;
+}
